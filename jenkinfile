@@ -20,6 +20,7 @@ pipeline {
                 sh 'sudo  sh /opt/apache-tomcat-9.0.64/bin/shutdown.sh'
                 sh 'sudo  sh /opt/apache-tomcat-9.0.64/bin/startup.sh'
                 sh 'echo "Successfully deployed"'
+                sh 'echo "random print output"'
             }
         }
     }
